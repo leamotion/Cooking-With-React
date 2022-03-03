@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { ThemeContext } from "./App";
+import { ThemeContext } from "../App";
 
 function CounterHooks({ initialCount }) {
   const [count, setCount] = useState(initialCount);

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ThemeContext } from "./App";
+import { ThemeContext } from "../App";
 export default class Counter extends Component {
   constructor(props) {
     super(props);
